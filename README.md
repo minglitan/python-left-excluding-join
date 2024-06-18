@@ -6,7 +6,8 @@ Replace/rename these portions of the code for your purpose:
 2. **Book2** : the Excel file to compare against
 3. **name** : usually your username
 4. **Desktop** : refers to the location of the Excel file (you can change this path/location as needed)
-5. **Output.xlsx** : a generated Excel file that contains rows of data from Book1 that are not in Book2
+5. **Temp_ID** : a column name that is used in both Excel files (change this to whichever column you want to compare in both Excel files)
+6. **Output.xlsx** : a generated Excel file that contains rows of data from Book1 that are not in Book2
 
 ## Code:
 ```python
